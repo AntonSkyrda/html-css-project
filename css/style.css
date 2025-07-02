@@ -494,3 +494,9 @@ footer .copyright {
     margin: 26px 0;
     color: #2B2C34;
 }
+
+/*--------------------------------------------------inner-links-------------------------------------------------------*/
+
+#about-me, #categories #css, #javascript, #tailwind, #react, #categories {
+    scroll-margin-top: 50vh;
+}
