@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dasteen - &#127757; Blog Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p class="logo-p">Dasteen<span>.Blog</span></p>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Category</a>
+          </li>
+          <li>
+            <a href="#">About Me</a>
+          </li>
+          <li>
+            <img src="img/search.svg" alt="search icon" />
+            <label for="search">
+              <input type="text" id="search" placeholder=" Search" />
+            </label>
+          </li>
+          <li>
+            <a href="#" class="donation-link">
+              <img
+                src="img/simple-icons_buymeacoffee.svg"
+                alt="Buy Me A Coffee icon"
+              />
+              Buy Me A Coffee
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="welcome-container">
+        <div class="subscribe-wrapper">
+          <h1>
+            Hi, i’m Dasteen <br />
+            Front end dev
+          </h1>
+          <div class="vertical-lane">
+            <p>
+              On this blog I share tips and tricks, frameworks, projects,
+              tutorials, etc Make sure you subscribe to get the latest updates
+            </p>
+          </div>
+          <form class="connection-form">
+            <label for="email">
+              <input
+                type="email"
+                name="email"
+                class="email"
+                id="email"
+                placeholder="Enter your email here..."
+              />
+            </label>
+            <input
+              type="submit"
+              value="Subscribe"
+              class="subscribe-submit"
+              id="subscribe-submit"
+            />
+          </form>
+        </div>
+
+        <img src="img/learn-coding.png" alt="developer avatar" />
+      </section>
+      <section class="categories-container">
+        <div class="top-wrapper">
+          <h2>Browse the category</h2>
+          <p>see all category <img src="img/Vector.svg" alt="" /></p>
+        </div>
+
+        <div class="categories-wrapper">
+          <div class="category" id="css">
+            <img src="img/css.svg" alt="css icon" />
+            <p>CSS</p>
+          </div>
+          <div class="category" id="javascript">
+            <img src="img/js.svg" alt="js icon" />
+            <p>Javascript</p>
+          </div>
+          <div class="category" id="tailwind">
+            <img src="img/tailwind.svg" alt="tailwind icon" />
+            <p>Tailwind</p>
+          </div>
+          <div class="category" id="vue">
+            <img src="img/vuejs.svg" alt="vue js icon" />
+            <p>Vue JS</p>
+          </div>
+          <div class="category" id="react">
+            <img src="img/react.svg" alt="react icon" />
+            <p>React JS</p>
+          </div>
+        </div>
+      </section>
+      <section class="articles-container">
+        <div class="article-section">
+          <div class="article-head">
+            <h2>Featured article</h2>
+            <a href="#">See All Article <img src="img/Vector.svg" alt="" /></a>
+          </div>
+          <div class="articles-wrapper">
+            <article class="article-card">
+              <img src="img/Article-js-book.png" alt="book" />
+              <h3>Fundamental of javascript</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-mac-monoblock.png" alt="mac mono" />
+              <h3>Grid CSS make your life easier</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-button.png" alt="button" />
+              <h3>Make animated light mode and dark mode toggle with CSS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-branches.png" alt="branches" />
+              <h3>Make tic tac toe games with react JS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="article-section">
+          <div class="article-head">
+            <h2>CSS</h2>
+            <a href="#">See All Article <img src="img/Vector.svg" alt="" /></a>
+          </div>
+          <div class="articles-wrapper">
+            <article class="article-card">
+              <img src="img/Article-notes.png" alt="notes" />
+              <h3>Flexbox cSS : Everything you need to know</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-mac-monoblock.png" alt="mac mono" />
+              <h3>Grid CSS make your life easier</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-mac-book.png" alt="mac book" />
+              <h3>3 easy way to make div center</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-button.png" alt="button" />
+              <h3>Make animated light mode and dark mode toggle with CSS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="article-section">
+          <div class="article-head">
+            <h2>Javascript</h2>
+            <a href="#">See All Article <img src="img/Vector.svg" alt="" /></a>
+          </div>
+          <div class="articles-wrapper">
+            <article class="article-card">
+              <img src="img/Article-code-fragment.png" alt="code fragment" />
+              <h3>array in javasript - Learn JS #3</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-js-book.png" alt="js book" />
+              <h3>Fundamental of javascript</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-wide-screen.png" alt="wide screen" />
+              <h3>7 project with javascript you must try for your portfolio</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img
+                src="img/Article-iphone-calculator.png"
+                alt="iphone calculator"
+              />
+              <h3>make simple calculator with javascript</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="article-section">
+          <div class="article-head">
+            <h2>React JS</h2>
+            <a href="#">See All Article <img src="img/Vector.svg" alt="" /></a>
+          </div>
+          <div class="articles-wrapper">
+            <article class="article-card">
+              <img
+                src="img/Article-dev-works-laptop.png"
+                alt="dev works laptop"
+              />
+              <h3>first month of leaning react jS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img
+                src="img/Article-dev-works-wide-screen.png"
+                alt="dev works wide screen"
+              />
+              <h3>build markdown editor with react JS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-code-fragment.png" alt="code fragment" />
+              <h3>getting started with react JS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+            <article class="article-card">
+              <img src="img/Article-branches.png" alt="branches" />
+              <h3>Make tic tac toe games with react JS</h3>
+              <div class="article-meta">
+                <img
+                  src="img/author-avatar.png"
+                  alt="Dasteen avatar"
+                  class="author-avatar"
+                />
+                <div class="meta-info">
+                  <p class="author-name">Dasteen</p>
+                  <p class="meta-details">Jan 10, 2022 • 3 Min Read</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <a class="more-article" href="">More Article</a>
+        </div>
+      </section>
+      <section class="subscribe-bottom-section">
+        <img src="img/subscribe-icon.png" alt="subscribe icon" />
+        <h2>Subscribe For the lastest updates</h2>
+        <p>Subscribe to newsletter and never miss the new post every week.</p>
+        <form class="connection-form">
+          <label for="email-bottom">
+            <input
+              type="email"
+              name="email"
+              class="email"
+              id="email-bottom"
+              placeholder="Enter your email here..."
+            />
+          </label>
+          <input
+            type="submit"
+            value="Subscribe"
+            class="subscribe-submit"
+            id="subscribe-bottom-submit"
+          />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="owner">
+          <div class="logo">
+            <p class="logo-p">Dasteen<span>.Blog</span></p>
+          </div>
+          <p>Digitaldastin by Dastin Darmawan</p>
+          <div class="logo-wrapper">
+            <a
+              href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0"
+            >
+              <img src="img/Medium-Monogram.svg" alt="monogram icon" />
+            </a>
+            <a href="https://x.com/">
+              <img src="img/Twitter.svg" alt="twitter icon" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="img/instagram.svg" alt="instagram icon" />
+            </a>
+            <a href="https://www.linkedin.com/">
+              <img src="img/linkedin.svg" alt="linkedin icon" />
+            </a>
+          </div>
+        </div>
+        <nav class="footer-nav">
+          <div class="nav-item">
+            <p>Category</p>
+            <ul>
+              <li>
+                <a href="#css">CSS</a>
+              </li>
+              <li>
+                <a href="#javascript">Javascript</a>
+              </li>
+              <li>
+                <a href="#tailwind">Tailwind</a>
+              </li>
+              <li>
+                <a href="#react">React JS</a>
+              </li>
+              <li>
+                <a href="">More Category</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item">
+            <p>About me</p>
+            <ul>
+              <li>
+                <a href="#">About Me</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">Achievement</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item">
+            <p>get in touch</p>
+            <ul>
+              <li>
+                <a href="#">+62-8XXX-XXX-XX</a>
+              </li>
+              <li>
+                <a href="#">demo@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item">
+            <p>Follow us</p>
+            <ul>
+              <li>
+                <a href="#">medium</a>
+              </li>
+              <li>
+                <a href="https://www.javascript.com/">Javascript</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">Instagram</a>
+              </li>
+              <li>
+                <a href="https://x.com/">Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">Facebook</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-underline"></div>
+      <p class="copyright">&copy; 2025 Digitaldastin</p>
+    </footer>
+  </body>
+</html>
